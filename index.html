@@ -230,7 +230,7 @@ dialog h3{margin:0 40px 12px 0;font:700 26px/1.2 var(--serif)}
 dialog p{margin:0 0 12px;color:#e6d8ec}
 dialog .x{position:absolute;right:12px;top:12px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(20,6,26,.5);color:var(--ink);font-size:20px;cursor:pointer}
 details{border-top:1px solid rgba(242,200,107,.2);padding:12px 0}
-details summary{cursor:pointer;font:700 18px/1.3 var(--serif);list-style:none;padding-right:26px;position:relative}
+details summary{cursor:pointer;font:700 18px/1.3 var(--serif);text-wrap:balance;list-style:none;padding-right:26px;position:relative}
 details summary::after{content:"+";position:absolute;right:2px;top:-2px;color:var(--gold);font-size:22px}
 details[open] summary::after{content:"−"}
 details p{margin:8px 0 0}
@@ -407,10 +407,15 @@ details p{margin:8px 0 0}
 <dialog id="faq" aria-labelledby="faq-h"><div class="dl">
   <button class="x" type="button" aria-label="Закрыть" data-close>✕</button>
   <h3 id="faq-h">Вопросы и ответы</h3>
-  <details><summary>Когда проходит клуб?</summary><p>С 4 по 31 января 2027 года.</p></details>
-  <details><summary>Какой нужен уровень турецкого?</summary><p>A2 и выше.</p></details>
-  <details><summary>Что нужно для участия?</summary><p>Телефон или компьютер с интернетом. Клуб открывается в браузере, устанавливать ничего не нужно.</p></details>
-  <details><summary>Как получить скидку за друга?</summary><p>Приведи друга, и вы оба получите скидку 10 $. Напиши мне, кого ты приглашаешь.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="1">Какой уровень турецкого нужен и&nbsp;есть&nbsp;ли ограничения по&nbsp;возрасту?</summary><p>Участвовать можно с&nbsp;17&nbsp;лет. Клуб подойдёт тебе, если твой турецкий примерно на&nbsp;уровне A2 или выше. К&nbsp;отрывкам из&nbsp;фильма ты&nbsp;получишь глоссарий, а&nbsp;сложные реплики мы&nbsp;разберём в&nbsp;<span class="nw">мини-подкастах</span>.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="2">Можно&nbsp;ли оплатить участие в&nbsp;лирах, рублях или криптовалюте?</summary><p>Да. Цена указана в&nbsp;долларах, а&nbsp;оплатить участие можно в&nbsp;том числе в&nbsp;турецких лирах, рублях или криптовалюте. При записи я&nbsp;подскажу актуальную сумму и&nbsp;пришлю реквизиты. Если тебе удобнее другая валюта, напиши мне&nbsp;— посмотрим, какой вариант подойдёт.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="3">Сколько времени нужно выделять в&nbsp;день на&nbsp;участие в&nbsp;клубе?</summary><p>Можно идти в&nbsp;своём темпе. По&nbsp;будням в&nbsp;клубе появляются новые задания, а&nbsp;ты&nbsp;выбираешь, сколько времени им&nbsp;уделить. Если тебе интересен прежде всего фильм или история Сириуса, можно сосредоточиться на&nbsp;них. А&nbsp;если захочется побороться за&nbsp;Кубок факультетов, пригодится любая твоя активность.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="4">Будет&nbsp;ли платформа работать в&nbsp;России? Нужен&nbsp;ли&nbsp;VPN?</summary><p>Для входа на&nbsp;сайт клуба VPN не&nbsp;нужен. У&nbsp;клуба собственная платформа, которая работает независимо от&nbsp;Instagram и&nbsp;Telegram. В&nbsp;личный кабинет ты&nbsp;войдёшь по&nbsp;своему коду.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="5">Это книжный клуб или киноклуб?</summary><p>В&nbsp;2022&nbsp;году мы&nbsp;начинали как книжный клуб, а&nbsp;в&nbsp;январе соберёмся уже в&nbsp;пятый раз&nbsp;— отсюда и&nbsp;юбилейный выпуск. Теперь за&nbsp;месяц мы&nbsp;успеваем понемногу всего: смотрим «Гарри Поттера и&nbsp;философский камень» на&nbsp;турецком, читаем авторскую историю о&nbsp;Сириусе, обсуждаем её&nbsp;и&nbsp;играем.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="6">Что такое квест и&nbsp;как в&nbsp;него играть?</summary><p>Это сюжетная игра на&nbsp;турецком языке. Она открывается прямо в&nbsp;браузере на&nbsp;телефоне или компьютере&nbsp;— устанавливать ничего не&nbsp;нужно. Вместе с&nbsp;юным Сириусом Блэком ты&nbsp;будешь искать подсказки и&nbsp;решать загадки, чтобы узнать, что произойдёт дальше.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="7">За&nbsp;что начисляются очки и&nbsp;какие будут призы?</summary><p>Ты&nbsp;приносишь очки своему факультету, когда приходишь на&nbsp;эфиры, выполняешь задания, участвуешь в&nbsp;обсуждениях и&nbsp;других активностях клуба. Участники <span class="nw">факультета-победителя</span> получат небольшие подарки по&nbsp;почте, а&nbsp;самого активного и&nbsp;ловкого участника квеста ждёт большой набор по&nbsp;вселенной Гарри Поттера.</p><p>Призы каждый год разные. Я&nbsp;выбираю их&nbsp;ближе к&nbsp;концу клуба с&nbsp;учётом числа участников. А&nbsp;пока на&nbsp;моей странице в&nbsp;Instagram можно посмотреть, что получили победители прошлых лет.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="8">Будут&nbsp;ли <span class="nw">онлайн-встречи</span> и&nbsp;где они пройдут?</summary><p>Да, будем встречаться в&nbsp;Zoom! На&nbsp;эфирах мы&nbsp;общаемся, вместе разбираем интересные моменты и&nbsp;просто весело проводим время. А&nbsp;ещё каждая встреча&nbsp;— дополнительный шанс заработать очки для&nbsp;своего факультета.</p></details>
+  <details name="faq"><summary data-ev="faq_q" data-d="9">Кому написать, если я&nbsp;<span class="nw">чего-то</span> не&nbsp;пойму?</summary><p>Загляни в&nbsp;«<span class="nw">Выручай-комнату</span>»&nbsp;— наш закрытый чат. Там можно спросить, что означает реплика в&nbsp;фильме, уточнить условие задания или встретиться с&nbsp;другими участниками и&nbsp;вместе обсудить сложный момент.</p></details>
   <div class="acts"><a class="btn gold" href="#contact" data-close data-ev="faq_write">Задать свой вопрос</a></div>
 </div></dialog>
 
@@ -547,6 +552,7 @@ details p{margin:8px 0 0}
     var el = ev.target.closest && ev.target.closest('[data-ev]'); if (!el) return;
     var e = el.getAttribute('data-ev'), d = el.getAttribute('data-d') || '';
     if (e === 'flip' && el.getAttribute('aria-pressed') === 'true') return;   // считаем только переворот на оборот
+    if (e === 'faq_q') { var dt = el.closest('details'); if (dt && dt.open) return; }   // считаем только раскрытие ответа
     if (e === 'rev') { var f = el.closest('.rev'); d = f ? (f.querySelector('figcaption') || {}).textContent || '' : ''; }
     send(e, d);
   }, true);
