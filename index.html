@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="ru">
+<head><meta name="robots" content="noindex"><link rel="canonical" href="https://club.turkcem.ru/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Клуб по Гарри Поттеру от Türkçem · 2027 — месяц волшебных приключений на турецком</title>
+<meta name="description" content="Месяц волшебных приключений на турецком языке: квест, Кубок факультетов, игры и коллекционные карточки. 4–31 января 2027, уровень турецкого A2 и выше.">
+<meta name="theme-color" content="#2a0d35">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Клуб по Гарри Поттеру от Türkçem · 2027">
+<meta property="og:description" content="Месяц волшебных приключений на турецком языке. 4–31 января 2027, уровень A2 и выше.">
+<meta property="og:url" content="https://club.turkcem.ru/">
+<meta property="og:image" content="https://club.turkcem.ru/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a0d35'/%3E%3Cpath d='M16 3l2.6 10.4L29 16l-10.4 2.6L16 29l-2.6-10.4L3 16l10.4-2.6z' fill='%23f2c86b'/%3E%3C/svg%3E">
+<link rel="preload" as="image" href="img/hero_m.webp" media="(orientation: portrait)">
+<link rel="preload" as="image" href="img/hero_d.webp" imagesrcset="img/hero_d.webp 1672w, img/hero_d_2x.webp 3344w" imagesizes="100vw" media="(orientation: landscape)">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  --bg:#2a0d35; --bg2:#33113f; --ink:#f4e8cf; --muted:#d5c3dc; --gold:#f2c86b; --gold2:#c98a35;
+  --card:#3b1648; --line:rgba(242,200,107,.55);
+  --serif:'PT Serif',Georgia,serif; --sans:'PT Sans','Segoe UI',Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--sans)}
+img{max-width:100%;display:block}
+a{color:inherit}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* фон нижних разделов: тёмно-фиолетовый с редкими звёздами, как на её картинках */
+.night{position:relative;background:
+  radial-gradient(1px 1px at 12% 18%,rgba(255,240,210,.7) 50%,transparent 51%),
+  radial-gradient(1px 1px at 78% 9%,rgba(255,240,210,.6) 50%,transparent 51%),
+  radial-gradient(1.5px 1.5px at 33% 72%,rgba(255,240,210,.5) 50%,transparent 51%),
+  radial-gradient(1px 1px at 91% 64%,rgba(255,240,210,.6) 50%,transparent 51%),
+  radial-gradient(1px 1px at 55% 40%,rgba(255,240,210,.45) 50%,transparent 51%),
+  radial-gradient(60% 40% at 15% 0%,rgba(140,60,160,.28),transparent 70%),
+  radial-gradient(50% 40% at 100% 100%,rgba(140,60,160,.22),transparent 70%),
+  var(--bg);background-size:420px 420px,420px 420px,420px 420px,420px 420px,420px 420px,100% 100%,100% 100%,auto}
+
+/* заголовок раздела в стиле её «Что тебя ждёт в январе?» */
+.sh{margin:0 auto;padding:0 12px;overflow-wrap:anywhere;text-align:center;font:700 clamp(28px,4.2vw,50px)/1.15 var(--serif);color:var(--ink);
+  text-shadow:0 2px 12px rgba(0,0,0,.45)}
+.sh span{display:inline-flex;align-items:center;gap:.4em;max-width:100%;min-width:0;text-wrap:balance}
+@media (max-width:400px){.sh{font-size:clamp(23px,7.2vw,28px)}.sh span{gap:.3em}.sh span::before,.sh span::after{width:clamp(12px,4vw,18px)}}
+.sh span::before,.sh span::after{content:"";flex:0 0 auto;width:clamp(18px,7vw,110px);height:2px;background:linear-gradient(90deg,transparent,var(--gold))}
+.sh span::after{background:linear-gradient(90deg,var(--gold),transparent)}
+.sh-star{display:block;width:min(520px,70%);height:22px;margin:10px auto 0;background:
+  radial-gradient(closest-side,#fff6d8,var(--gold) 35%,transparent 70%) center/22px 22px no-repeat,
+  linear-gradient(90deg,transparent,var(--gold) 30%,var(--gold) 70%,transparent) center/100% 2px no-repeat}
+.sec{padding:clamp(56px,8vw,110px) 0}
+.wrap{width:min(1160px,100% - 32px);margin:0 auto}
+.lead{max-width:760px;margin:18px auto 0;text-align:center;color:var(--muted);font-size:clamp(16px,1.6vw,19px)}
+.draft{display:inline-block;margin-top:6px;padding:2px 10px;border:1px dashed rgba(242,200,107,.6);border-radius:20px;font-size:13px;color:var(--gold)}
+
+/* 1. шапка: её картинка целиком, кнопка в свободном месте картинки */
+.hero{position:relative;overflow:hidden;background:#2b1236}
+.hero picture,.hero picture img{width:100%;height:auto}
+.hero .join{position:absolute;left:50%;transform:translateX(-50%);display:block;line-height:0;filter:drop-shadow(0 6px 18px rgba(0,0,0,.45));
+  transition:transform .2s ease,filter .2s ease;-webkit-tap-highlight-color:transparent}
+.hero .join:hover,.hero .join:focus-visible{transform:translateX(-50%) scale(1.04);filter:drop-shadow(0 0 22px rgba(255,205,110,.75))}
+.hero .join:focus-visible{outline:2px solid #fff3c8;outline-offset:4px;border-radius:12px}
+.hero .join img{width:100%;height:auto}
+.hero .join .gl{position:absolute;inset:20% 7%;border-radius:40px;overflow:hidden;pointer-events:none}
+.hero .join .gl::after{content:"";position:absolute;top:0;bottom:0;left:0;width:30%;
+  background:linear-gradient(105deg,transparent,rgba(255,248,220,.38) 50%,transparent);transform:translateX(-120%);
+  animation:shine 4.5s ease-in-out 1.2s infinite;will-change:transform}
+@keyframes shine{0%,62%{transform:translateX(-120%)}100%{transform:translateX(400%)}}
+@media (orientation:landscape){
+  .hero .join{width:29%;left:39.6%;top:73.5%}
+}
+@media (orientation:portrait){
+  .hero .join{width:78%;top:86.6%}
+}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5%;background:linear-gradient(transparent,#2f0f3a);pointer-events:none}
+
+/* 2. «Что тебя ждёт в январе?» — её фон сверху, однотонный низ продолжается тем же цветом */
+.jan{position:relative;background:#2e0d38 url(img/jan_d.webp) center top/100% auto no-repeat;padding:10.6vw 0 clamp(48px,6vw,90px)}
+@media (orientation:portrait){.jan{background-image:url(img/jan_m.webp);background-color:#2f0b3a;padding-top:25vw}}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.4vw,34px) clamp(14px,2.2vw,30px);width:min(940px,100% - 40px);margin:clamp(10px,2vw,30px) auto 0;perspective:1600px}
+@media (max-width:760px){.cards{grid-template-columns:repeat(2,1fr);width:calc(100% - 18px);gap:12px 8px}}
+/* её карточки-пятиугольники (как у шоколадных лягушек): лицо = её картинка, оборот = пергамент того же силуэта */
+.fc{position:relative;display:block;aspect-ratio:1/1;border:0;padding:0;background:none;cursor:pointer;outline-offset:4px;color:inherit;font:inherit;text-align:center;-webkit-tap-highlight-color:transparent}
+.fc .in{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.fc[aria-pressed="true"] .in{transform:rotateY(180deg)}
+@media (hover:hover){.fc:hover .in{transform:translateY(-4px)}.fc[aria-pressed="true"]:hover .in{transform:translateY(-4px) rotateY(180deg)}}
+.fc{perspective:1200px;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+/* перевёрнутая карточка растёт, чтобы текст оборота читался: на телефоне на всю ширину блока, на компьютере насколько нужно длинному тексту.
+   Во сколько раз и от какого угла — считает fitBacks() (--zs и transform-origin), карточка не выходит за блок */
+.fc[aria-pressed="true"]{transform:scale(var(--zs,1));z-index:3}
+.fc .f,.fc .b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.fc .f img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5))}
+.fc .hint{position:absolute;right:3%;top:3%;width:clamp(24px,2.6vw,32px);height:clamp(24px,2.6vw,32px);border-radius:50%;display:grid;place-items:center;
+  background:rgba(42,13,53,.8);border:1px solid var(--line);color:var(--gold);font-size:clamp(13px,1.4vw,17px)}
+.fc .b{transform:rotateY(180deg);background:url(img/card_back.webp) center/100% 100% no-repeat;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5));color:#3a1a2c}
+@media (min-resolution:1.5dppx){.fc .b{background-image:url(img/card_back_2x.webp)}}
+.fc .bt{position:absolute;inset:0;overflow:hidden;font-size:12px;line-height:1.36;text-align:center}
+.fc .bt .shl{float:left;width:50%;height:100%;shape-outside:polygon(0 0,100% 0,100% 13%,20% 44%,49% 91%,49% 100%,0 100%)}
+.fc .bt .shr{float:right;width:50%;height:100%;shape-outside:polygon(100% 0,0 0,0 13%,80% 44%,51% 91%,51% 100%,100% 100%)}
+.fc .b h3{margin:0 0 .35em;padding-top:.2em;font:700 1.12em/1.18 var(--serif);color:#4a1640}
+.fc .b p{margin:0}
+.nw{white-space:nowrap}
+.cards-note{text-align:center;margin-top:16px;color:var(--muted);font-size:14px}
+
+/* 3. афиша квеста */
+.quest{position:relative;overflow:hidden;background:#151a2c}
+.quest picture img{width:100%;height:auto}
+.quest .txt{position:absolute;z-index:2;color:var(--ink)}
+.quest .kick{font:700 13px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.quest h2{margin:.35em 0 .3em;font:700 clamp(30px,4.6vw,66px)/1.05 var(--serif);
+  background:linear-gradient(180deg,#fff3cf 10%,#f2c86b 55%,#c98a35);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 3px 10px rgba(0,0,0,.7));text-wrap:balance}
+.quest p{margin:0;font-size:clamp(15px,1.5vw,19px);color:#e7dcef;text-shadow:0 2px 8px rgba(0,0,0,.85)}
+.quest p+p{margin-top:.6em}
+@media (orientation:landscape){.quest .txt{left:5%;top:50%;transform:translateY(-50%);width:31%}
+  .quest::before{content:"";position:absolute;inset:0 55% 0 0;background:linear-gradient(90deg,rgba(10,12,28,.6),transparent);pointer-events:none}}
+@media (orientation:portrait){
+  .quest .txt{left:6%;right:6%;top:4%;bottom:5%;display:flex;flex-direction:column;text-align:center}
+  .quest .txt .ds{margin-top:auto}
+  .quest .txt .ds p:last-child{margin-bottom:3.1em}   /* её просьба 22.11: описание на 2 строки выше */
+  .quest::before{content:"";position:absolute;inset:auto 0 0 0;height:38%;background:linear-gradient(transparent,rgba(12,14,30,.78));pointer-events:none}
+}
+.quest::after{content:"";position:absolute;left:0;right:0;top:0;height:6%;background:linear-gradient(#2e0d38,transparent);pointer-events:none}
+@media (orientation:portrait){.quest::after{height:24%;background:linear-gradient(#2e0d38,rgba(21,26,44,.55) 40%,transparent)}}
+
+/* 4. клуб изнутри: лента снимков с телефона */
+.strip-wrap{position:relative;margin-top:clamp(28px,4vw,48px)}
+.strip{display:flex;gap:clamp(14px,2vw,24px);overflow-x:auto;scroll-snap-type:x mandatory;padding:6px max(16px,calc((100vw - 1160px)/2)) 18px;
+  scrollbar-width:none;overscroll-behavior-x:contain}
+.strip::-webkit-scrollbar{display:none}
+.shot{flex:0 0 auto;width:clamp(200px,19vw,250px);scroll-snap-align:center;margin:0}
+.shot .ph{aspect-ratio:9/17;border-radius:22px;overflow:hidden;border:2px solid rgba(242,200,107,.6);background:#140a18;
+  box-shadow:0 14px 30px rgba(0,0,0,.45)}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.shot figcaption{margin-top:10px;text-align:center;font:700 15px/1.3 var(--serif);color:var(--ink)}
+.arr{position:absolute;top:calc(50% - 36px);width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:rgba(42,13,53,.85);
+  color:var(--gold);font-size:22px;cursor:pointer;display:none;place-items:center;z-index:2}
+.arr:hover{background:#4a1d58}
+.arr.l{left:12px}.arr.r{right:12px}
+@media (hover:hover) and (min-width:761px){.arr{display:grid}}
+
+/* 5. как проходит обучение */
+.steps{list-style:none;margin:clamp(28px,4vw,48px) auto 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+.steps li{position:relative;padding:58px 20px 22px;border-radius:16px;background:linear-gradient(180deg,rgba(90,36,112,.55),rgba(59,22,72,.55));
+  border:1px solid rgba(242,200,107,.35);counter-increment:s}
+.steps li::before{content:counter(s);position:absolute;left:20px;top:16px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;
+  background:linear-gradient(180deg,#ffe3a1,#d79a42);color:#3a1530;font:700 17px/1 var(--serif)}
+.steps h3{margin:0 0 6px;font:700 19px/1.25 var(--serif);color:var(--ink)}
+.steps p{margin:0;color:var(--muted);font-size:16px}
+
+/* 6. отзывы */
+.rev{flex:0 0 auto;width:min(360px,calc(100vw - 64px));scroll-snap-align:center;margin:0;padding:26px 24px;border-radius:16px;
+  background:linear-gradient(160deg,#f3e3c0,#e2c893);color:#3a1a2c;box-shadow:0 12px 28px rgba(0,0,0,.4);display:flex;flex-direction:column;gap:14px}
+.rev{position:relative;padding-top:30px}
+.rev::before{content:"“";position:absolute;right:18px;top:-6px;font:700 96px/1 var(--serif);color:rgba(90,29,78,.16);pointer-events:none}
+.rev figcaption{order:-1;font:700 20px/1.2 var(--serif);color:#5a1d4e}
+.rev figcaption::before{content:"✦ ";color:#b07a2a}
+.rev blockquote{margin:0;font:400 italic 16.5px/1.5 var(--serif);max-height:calc(1.5em * 10);overflow:hidden}
+.rev blockquote p{margin:0 0 .55em}
+.rev blockquote p:last-child{margin-bottom:0}
+.rev.long blockquote{-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.rev-more{margin-top:auto;align-self:flex-start;padding:9px 16px;border:1px solid rgba(90,29,78,.45);border-radius:999px;background:rgba(255,255,255,.35);
+  color:#5a1d4e;font:700 14px/1 var(--sans);cursor:pointer}
+.rev-more::after{content:" →"}
+@media (max-width:400px){.rev{padding:26px 18px 20px}.rev blockquote{font-size:15.5px}}
+@media (min-width:1100px){.rev{width:calc((1160px - 48px)/3)}}
+#rev-dlg .who{margin:0 40px 14px 0;font:700 24px/1.2 var(--serif);color:var(--gold)}
+#rev-dlg blockquote{margin:0;font:400 italic 17px/1.55 var(--serif)}
+#rev-dlg blockquote p{color:var(--ink)}
+
+/* 7. стоимость и запись */
+.price{width:min(720px,100% - 24px);margin:clamp(28px,4vw,48px) auto 0;padding:clamp(20px,4vw,44px) clamp(14px,4vw,44px);border-radius:22px;text-align:center;
+  background:radial-gradient(90% 70% at 50% 0%,#5d2675,#3a1447 70%);border:2px solid rgba(242,200,107,.7);
+  box-shadow:0 18px 50px rgba(0,0,0,.45),inset 0 0 0 6px rgba(42,13,53,.6),inset 0 0 0 7px rgba(242,200,107,.3)}
+.badge{display:inline-block;padding:6px 16px;border-radius:30px;background:linear-gradient(180deg,#ffe3a1,#d79a42);color:#3a1530;font-weight:700;font-size:15px}
+.amount{margin:16px 0 4px;display:flex;justify-content:center;align-items:baseline;gap:18px;flex-wrap:wrap}
+.amount .now{font:700 clamp(54px,9vw,84px)/1 var(--serif);background:linear-gradient(180deg,#fff3cf,#f2c86b 60%,#c98a35);-webkit-background-clip:text;background-clip:text;color:transparent}
+.amount .old{font:400 clamp(26px,4vw,36px)/1 var(--serif);color:#bba6c4;text-decoration:line-through;text-decoration-color:#ff9a8a;text-decoration-thickness:3px}
+.per{color:var(--muted)}
+.timer{margin:22px auto 4px}
+.timer .lbl{font-size:15px;color:var(--muted);margin-bottom:8px}
+.timer .digits{display:flex;justify-content:center;gap:clamp(5px,2vw,10px)}
+.timer .u{min-width:clamp(54px,16vw,68px);padding:10px 6px 8px;border-radius:12px;background:rgba(20,6,26,.55);border:1px solid rgba(242,200,107,.4)}
+.timer .u b{display:block;font:700 30px/1 var(--serif);color:var(--ink);font-variant-numeric:tabular-nums}
+.timer .u i{display:block;margin-top:4px;font-style:normal;font-size:12px;color:var(--muted)}
+.terms{list-style:none;margin:24px auto 0;padding:0;max-width:480px;text-align:left}
+.terms li{position:relative;padding:8px 0 8px 32px;border-top:1px solid rgba(242,200,107,.18)}
+.terms li::before{content:"✦";position:absolute;left:6px;top:8px;color:var(--gold)}
+.acts{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:52px;padding:0 26px;border-radius:14px;border:0;cursor:pointer;
+  font:700 18px/1 var(--serif);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn.gold{background:linear-gradient(180deg,#ffe7ad,#e2a64e 60%,#c98a35);color:#3a1530;box-shadow:0 8px 22px rgba(201,138,53,.35),inset 0 1px 0 #fff4d4}
+.btn.ghost{background:rgba(20,6,26,.4);color:var(--ink);border:1.5px solid rgba(242,200,107,.7)}
+.btn.q{width:52px;padding:0;border-radius:50%;font-size:24px}
+
+/* 8. связь */
+.contacts{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;width:min(1000px,100% - 32px);margin:clamp(28px,4vw,44px) auto 0}
+@media (max-width:820px){.contacts{grid-template-columns:1fr 1fr}.contacts a:last-child{grid-column:1/-1}}
+.ct{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:120px;padding:18px 10px;border-radius:16px;text-decoration:none;
+  background:linear-gradient(180deg,rgba(90,36,112,.6),rgba(50,17,62,.75));border:1.5px solid rgba(242,200,107,.45);transition:transform .15s ease,border-color .15s ease}
+.ct:hover,.ct:focus-visible{transform:translateY(-2px);border-color:var(--gold)}
+.ct .ic{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#fff}
+.ct .ic svg{width:28px;height:28px;fill:currentColor}
+.ct b{font:700 17px/1.2 var(--serif)}
+.ct small{color:var(--muted);font-size:13px;word-break:break-all}
+.wa .ic{background:#25d366}.tg .ic{background:#2aabee}.vk .ic{background:#0077ff}
+.ig .ic{background:radial-gradient(circle at 30% 110%,#ffdb73 0 18%,#fd5949 40%,#d6249f 62%,#285aeb 95%)}
+.ml .ic{background:linear-gradient(180deg,#ffe3a1,#d79a42);color:#3a1530}
+.m-br{display:none}
+@media (max-width:760px){.m-br{display:inline}}
+.foot-note{max-width:760px;margin:22px auto 0;text-align:center;font-size:12.5px;color:#a991b4}
+footer{padding:28px 16px 40px;text-align:center;color:#a991b4;font-size:14px;border-top:1px solid rgba(242,200,107,.15)}
+footer a{color:var(--gold)}
+
+/* окна «Участие в подарок» и «?» */
+dialog{width:min(560px,calc(100% - 28px));max-height:calc(100% - 40px);padding:0;border:2px solid rgba(242,200,107,.7);border-radius:20px;
+  background:linear-gradient(180deg,#45194f,#2c0e36);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+dialog::backdrop{background:rgba(10,3,14,.72);backdrop-filter:blur(3px)}
+dialog .dl{padding:28px 24px 24px;overflow:auto}
+dialog h3{margin:0 40px 12px 0;font:700 26px/1.2 var(--serif)}
+dialog p{margin:0 0 12px;color:#e6d8ec}
+dialog .x{position:absolute;right:12px;top:12px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(20,6,26,.5);color:var(--ink);font-size:20px;cursor:pointer}
+details{border-top:1px solid rgba(242,200,107,.2);padding:12px 0}
+details summary{cursor:pointer;font:700 18px/1.3 var(--serif);list-style:none;padding-right:26px;position:relative}
+details summary::after{content:"+";position:absolute;right:2px;top:-2px;color:var(--gold);font-size:22px}
+details[open] summary::after{content:"−"}
+details p{margin:8px 0 0}
+</style>
+</head>
+<body>
+
+<header class="hero" id="top">
+  <picture>
+    <source media="(orientation: portrait)" srcset="img/hero_m.webp" width="941" height="1672">
+    <img src="img/hero_d.webp" srcset="img/hero_d.webp 1672w, img/hero_d_2x.webp 3344w" sizes="100vw" width="1672" height="941" alt="Клуб по Гарри Поттеру от Türkçem · 2027. Юбилейный пятый выпуск. Месяц волшебных приключений на турецком языке. 4–31 января 2027, уровень турецкого A2 и выше." fetchpriority="high">
+  </picture>
+  <h1 class="sr">Клуб по Гарри Поттеру от Türkçem · 2027 — месяц волшебных приключений на турецком языке</h1>
+  <a class="join" href="#contact" data-ev="join"><img src="img/join.webp" width="1040" height="200" alt="Присоединиться к клубу"><span class="gl" aria-hidden="true"></span></a>
+</header>
+
+<section class="jan" id="january" aria-labelledby="jan-h">
+  <h2 class="sr" id="jan-h">Что тебя ждёт в январе?</h2>
+  <div class="cards">
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="1"><span class="in">
+      <span class="f"><img src="img/card_1.webp" srcset="img/card_1.webp 640w, img/card_1_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Тайна Зеркала Судьбы"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Тайна Зеркала Судьбы</h3><p>Квест вместе с Сириусом Блэком: загадки, мини-игры и задания на турецком на каждом этапе.</p></span></span>
+    </span></div>
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="2"><span class="in">
+      <span class="f"><img src="img/card_2.webp" srcset="img/card_2.webp 640w, img/card_2_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Кубок Факультетов"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Кубок Факультетов</h3><p>Игры, квест, эфиры и задания приносят очки твоему факультету. Победители получат тематические призы маггловской почтой.</p></span></span>
+    </span></div>
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="3"><span class="in">
+      <span class="f"><img src="img/card_3.webp" srcset="img/card_3.webp 640w, img/card_3_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Коллекция «Фантастические Твари»"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Коллекция «Фантастические Твари»</h3><p>Шоколадные лягушки с карточками волшебных существ: собирай свою коллекцию в играх и заданиях.</p></span></span>
+    </span></div>
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="4"><span class="in">
+      <span class="f"><img src="img/card_4.webp" srcset="img/card_4.webp 640w, img/card_4_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Магические игры"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Магические игры</h3><p>Среди занятий в&nbsp;клубе есть и&nbsp;магические игры. Сыграйте в&nbsp;<span class="nw">плюй-камни</span>, закрепите новую турецкую лексику и&nbsp;поборитесь за&nbsp;звание чемпиона!</p></span></span>
+    </span></div>
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="5"><span class="in">
+      <span class="f"><img src="img/card_5.webp" srcset="img/card_5.webp 640w, img/card_5_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Достижения и призы"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Достижения и призы</h3><p>Выполняйте задания и&nbsp;открывайте достижения в&nbsp;личном кабинете. Самого упорного, смелого и&nbsp;ловкого волшебника нашего клуба ждёт главный приз&nbsp;— большой набор подарков из&nbsp;мира Гарри Поттера!</p></span></span>
+    </span></div>
+    <div class="fc" role="button" tabindex="0" aria-pressed="false" data-ev="flip" data-d="6"><span class="in">
+      <span class="f"><img src="img/card_6.webp" srcset="img/card_6.webp 640w, img/card_6_2x.webp 1000w" sizes="(max-width:760px) 50vw, 320px" width="640" height="640" loading="lazy" alt="Первый фильм на турецком"><span class="hint" aria-hidden="true">↻</span></span>
+      <span class="b"><span class="bt"><span class="shl"></span><span class="shr"></span><h3>Первый фильм на турецком</h3><p>Вместе смотрим «Гарри Поттер и&nbsp;философский камень» на&nbsp;турецком&nbsp;— каждый день по&nbsp;небольшому отрывку. К&nbsp;фильму прилагается глоссарий, а&nbsp;сложные моменты разбираем в&nbsp;<span class="nw">мини-подкастах</span>. Любые вопросы всегда можно обсудить в&nbsp;нашем закрытом чате <span class="nw">«Выручай-комната».</span></p></span></span>
+    </span></div>
+  </div>
+  <p class="cards-note">Нажми на карточку, чтобы перевернуть</p>
+</section>
+
+<section class="quest" id="quest" aria-labelledby="quest-h">
+  <picture>
+    <source media="(orientation: portrait)" srcset="img/quest_m.webp?v=2" width="941" height="1672">
+    <img src="img/quest_d.webp?v=2" srcset="img/quest_d.webp?v=2 1672w, img/quest_d_2x.webp?v=2 3344w" sizes="100vw" width="1672" height="941" loading="lazy" alt="Сириус Блэк в зимнем лесу тянется к волшебному зеркалу">
+  </picture>
+  <div class="txt">
+    <div class="kick">Квест клуба</div>
+    <h2 id="quest-h">Сириус Блэк и&nbsp;Зеркало Судьбы</h2>
+    <div class="ds"><p>Хогвартс, 1975&nbsp;год. Случайно подслушанный разговор заставляет юного Сириуса Блэка задуматься: какую тайну хранит его семья?</p><p>Квест&nbsp;— это интерактивная история. Каждый этап открывает новую главу и&nbsp;новое задание на&nbsp;турецком: ты будешь искать улики и&nbsp;решать головоломки, чтобы узнать, что случится дальше.</p></div>
+  </div>
+</section>
+
+<div class="night">
+<section class="sec" id="inside" aria-labelledby="inside-h">
+  <h2 class="sh" id="inside-h"><span>Как выглядит клуб изнутри</span></h2>
+  <i class="sh-star" aria-hidden="true"></i>
+  <p class="lead">Снимки настоящего клуба с экрана телефона: личный кабинет, Кубок факультетов, коллекция карточек и этапы квеста.</p>
+  <div class="strip-wrap">
+    <button class="arr l" type="button" aria-label="Назад" data-dir="-1">‹</button>
+    <div class="strip" id="shots">
+      <figure class="shot"><div class="ph"><img src="img/club_home.webp" loading="lazy" alt="Личный кабинет участника"></div><figcaption>Личный кабинет</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_kupa.webp" loading="lazy" alt="Кубок факультетов" style="object-position:center 30%"></div><figcaption>Кубок факультетов</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_coll.webp" loading="lazy" alt="Коллекция карточек" style="object-position:center 30%"></div><figcaption>Коллекция карточек</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_frog.webp" loading="lazy" alt="Новая карточка из шоколадной лягушки" style="object-position:center 40%"></div><figcaption>Шоколадная лягушка</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_vitray.webp" loading="lazy" alt="Этап квеста: витраж"></div><figcaption>Квест: витраж</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_oda.webp" loading="lazy" alt="Этап квеста: кабинет Дамблдора" style="object-position:center 40%"></div><figcaption>Квест: кабинет Дамблдора</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_forest.webp" loading="lazy" alt="Этап квеста: лес"></div><figcaption>Квест: лес</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_pati.webp" loading="lazy" alt="Игра «Сосредоточься, Бродяга!»"></div><figcaption>Игра «Odaklan, Patiayak!»</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_grim.webp" loading="lazy" alt="Этап квеста: площадь Гриммо, 12" style="object-position:center 70%"></div><figcaption>Квест: площадь Гриммо, 12</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_bar.webp" loading="lazy" alt="Этап квеста: «Кабанья голова»"></div><figcaption>Квест: «Кабанья голова»</figcaption></figure>
+      <figure class="shot"><div class="ph"><img src="img/club_house.webp" loading="lazy" alt="Окно факультета Гриффиндор" style="object-position:center 40%"></div><figcaption>Факультеты</figcaption></figure>
+    </div>
+    <button class="arr r" type="button" aria-label="Вперёд" data-dir="1">›</button>
+  </div>
+</section>
+
+<section class="sec" id="how" aria-labelledby="how-h" style="padding-top:0">
+  <h2 class="sh" id="how-h"><span>Как проходит обучение</span></h2>
+  <i class="sh-star" aria-hidden="true"></i>
+  <div class="wrap">
+    <ol class="steps">
+      <li><h3>Запись</h3><p>Пишешь мне, оплачиваешь участие и получаешь личный код для входа в кабинет клуба. Если ты у нас в первый раз — сначала Распределяющая Шляпа отправит тебя на один из четырёх факультетов Хогвартса!</p></li>
+      <li><h3>4 января — старт</h3><p>Клуб открывается: ты играешь за свой факультет вместе с другими волшебниками.</p></li>
+      <li><h3>Каждый день</h3><p>Квест, игры и задания на турецком. Всё открывается в браузере на телефоне и компьютере, ничего не нужно устанавливать.</p></li>
+      <li><h3>31 января — финал</h3><p>Подводим итоги Кубка факультетов, победители получают призы.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="reviews" aria-labelledby="rev-h" style="padding-top:0">
+  <h2 class="sh" id="rev-h"><span>Отзывы</span></h2>
+  <i class="sh-star" aria-hidden="true"></i>
+  <div class="strip-wrap">
+    <button class="arr l" type="button" aria-label="Назад" data-dir="-1">‹</button>
+    <div class="strip" id="revs">
+      <figure class="rev" data-rev="0"><figcaption>Дарина</figcaption><blockquote><p>Чистое очарование — это когда клуб становится целым приключением! 💫</p><p>Я особенно ждала этот клуб, ведь он был по моей любимой Вселенной ГП. И какое же это было удовольствие: активности, ачивки, карточки, живой чат, борьба за Кубок факультета — хотелось успеть всё и сразу!</p><p>Квест, глоссарий, главы и невероятно бережное отношение к оригиналу сделали этот опыт по-настоящему волшебным.</p><p>Мария, спасибо за такой магический клуб ✨</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="1"><figcaption>Алена</figcaption><blockquote><p>Книжный клуб это не только удовольствие, но и большая польза! Во-первых, приятно, что есть много помощи и подсказок при чтении, во-вторых, затягивает, хочется узнать, что будет дальше, в-третьих, вспоминаешь знакомые слова плюс учишь новые. За месяц книжного клуба у меня развилась зависимость читать на турецком языке. А это значит хочется продолжать учить язык!</p><p>Отдельная любовь это задачки и задания на карточки. Хотелось собрать все и выиграть битву факультетов!</p><p>Ну а квест это «прямо в сердечко» 🥹 Было очень интересно, увлекательно, волнительно и при этом познавательно! Даже со своим начальным уровнем я дошла до финала, хотя все задания надо было выполнять на турецком и иногда было действительно сложно! Большое спасибо, Мария, за такое невероятное волшебное приключение! Уже жду следующий квест 🥹</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="2"><figcaption>Катя</figcaption><blockquote><p>Мария, доброе утро!!! Это какая-то детская радость от победы))) Казалось бы, а настроение-то улучшилось!</p><p>Это было чудесное время, чудесные просто суперские задания, эфиры. Спасибо просто огромнейшее. Прямо вернулось желание заниматься турецким снова.)))</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="3"><figcaption>Надежда</figcaption><blockquote><p>Хотелось бы выразить большую благодарность нашему идейному вдохновителю, Марии, за снова предоставленную возможность поучаствовать в клубе, уже в 4-й раз! К Вам хочется возвращаться снова и снова, а это говорит о многом!</p><p>Это огромный и кропотливый труд, помноженный на бессонные ночи. Задания были безумно интересными, а в клубе как всегда царит дух дружбы, взаимной поддержки, уважения и соперничества!</p><p>All in all, моим восторгам и восхищению нет предела!</p><p>P.S. Спасибо моему факультету за стремительность и взаимовыручку! А соперникам спасибо за то, что мотивировали и придавали ускорения 🤣🤣🤣</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="4"><figcaption>Георгий</figcaption><blockquote><p>Мария, конец этого клуба — это как конец хорошей книги. Читал бы еще...</p><p>Целый месяц эта сказка длилась и — как сказали выше — была хорошим способом сбежать на какое-то время от реальности. Здорово, что, не замечая этого, мы еще и занимались турецким языком, что в конечном счёте эту реальность улучшало.</p><p>Благодарность всем истинным слизеринцам, а также и нашим достойным соперникам. Надеюсь, мы с вами за кубок ещё поборёмся и… Шалость удалась!</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="5"><figcaption>Юля</figcaption><blockquote><p>Я безусловно присоединяюсь ко всему выше сказанному, и хочу добавить пару слов. Мария, все, что Вы делаете, делается с 200% отдачей. Поверьте, мне есть с чем сравнить — за 2 года пройдено достаточное количество мастер-классов, интенсивов и всевозможных тренингов по турецкому. К Вам хочется возвращаться, потому что есть уверенность, что любой Ваш проект заранее «обречен» на успех!</p><p>Преподаватель, настолько горящий своим делом, редкость, к сожалению.. но нам с однокурсниками (или с одноклубниками) повезло — почти месяц пролетел незаметно. Было и весело, и познавательно, и полезно, и азартно. Огромное спасибо за такую возможность. Ждем следующий проект))</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="6"><figcaption>Наталья</figcaption><blockquote><p>Я тоже хочу выразить своё признание Марии — моей первой учительнице турецкого! То, что происходило в этом клубе — просто невероятно! И, правда, невероятное волшебство! В клубе за годы произошли огромные изменения!</p><p>Спасибо за такое волшебное погружение в мир волшебного турецкого. Вы не только очень хороший преподаватель, но и талантливый и интересный человек!</p><p>Желаю клубу быть!!! С большим уважением 🌺</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="7"><figcaption>Наталья</figcaption><blockquote><p>Просто волшебство какое-то! Особенно во время воскресных эфиров происходит настоящая магия. Очень нравится атмосфера единства с факультетом, адаптированные главы заставили меня поверить, что я могу понимать текст на турецком, ну и конечно квест! Такой азарт, такой азарт, спасибо за возможность в этом участвовать, уже жду следующего книжного клуба!!</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="8"><figcaption>Оксана</figcaption><blockquote><p>Мария, Вы настоящая волшебница!</p><p>Хочу от всей души поблагодарить Вас за невероятное приключение, которое Вы нам подарили! Спасибо за тёплую и вдохновляющую атмосферу, супер-продуманный формат!</p><p>Ваш клуб стал для меня настоящим спасением от повседневной рутины. На пару часов я забывала о рабочих заботах и проблемах, погружаясь в мир магии, дружбы и захватывающих загадок!</p><p>Благодарю Вас за труд, за внимание к каждому участнику и за ту искру волшебства, которую Вы вкладываете в каждую онлайн-встречу.</p><p>Спасибо моим «факультетским одноклассникам» из Когтеврана (Ревенкло) за дух единства. Вы такие классные! Теперь мы не просто участники клуба, а настоящая команда!</p><p>Очень надеюсь, что в следующем году я снова смогу поучаствовать в такой потрясающей волшебной игре!</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+      <figure class="rev" data-rev="9"><figcaption>Ольга</figcaption><blockquote><p>Мария, честное слово — я впечатлена! Это реально очень и очень качественно сделанная игра. Тексты продуманы и логичны. Получаю удовольствие!</p><p>Искренне благодарю</p></blockquote><button class="rev-more" type="button" data-ev="rev" hidden>Читать полностью</button></figure>
+    </div>
+    <button class="arr r" type="button" aria-label="Вперёд" data-dir="1">›</button>
+  </div>
+</section>
+
+<section class="sec" id="price-sec" aria-labelledby="price-h" style="padding-top:0">
+  <h2 class="sh" id="price-h"><span>Стоимость и запись</span></h2>
+  <i class="sh-star" aria-hidden="true"></i>
+  <div class="price" id="price">
+    <span class="badge" id="badge">Спецпредложение до 30 ноября</span>
+    <div class="amount"><span class="now" id="pnow">69 $</span><span class="old" id="pold">79 $</span></div>
+    <div class="per">участие в клубе на весь январь</div>
+    <div class="timer" id="timer">
+      <div class="lbl" id="tlbl">До конца акции осталось</div>
+      <div class="digits"><span class="u"><b id="td">0</b><i>дней</i></span><span class="u"><b id="th">00</b><i>часов</i></span><span class="u"><b id="tm">00</b><i>минут</i></span><span class="u"><b id="ts">00</b><i>секунд</i></span></div>
+    </div>
+    <ul class="terms">
+      <li>4–31 января 2027</li>
+      <li>Уровень турецкого: A2 и выше</li>
+      <li>Онлайн: личный кабинет клуба на телефоне и компьютере</li>
+      <li>Приведи друга — скидка 10 $ тебе и другу</li>
+    </ul>
+    <div class="acts">
+      <a class="btn gold" href="#contact" data-ev="signup">Записаться</a>
+      <button class="btn ghost" type="button" data-open="gift" data-ev="gift">🎁 Участие в подарок</button>
+      <button class="btn ghost q" type="button" data-open="faq" data-ev="faq" aria-label="Вопросы и ответы">?</button>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="contact" aria-labelledby="ct-h" style="padding-top:0">
+  <h2 class="sh" id="ct-h"><span>Присоединиться к&nbsp;клубу</span></h2>
+  <i class="sh-star" aria-hidden="true"></i>
+  <p class="lead">Напиши мне, где тебе удобно: отвечу,<br class="m-br"> расскажу подробности и помогу с записью.</p>
+  <div class="contacts">
+    <a class="ct wa" data-wa data-ev="c" data-d="wa" href="https://wa.me/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg></span><b>WhatsApp</b></a>
+    <a class="ct tg" data-ev="c" data-d="tg" href="https://t.me/maria_ataseven" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 4.2 2.9 11.3c-1.3.5-1.2 1.2-.2 1.5l4.7 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.4-1.5zM8.7 13.9l9.4-5.9c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.2z"/></svg></span><b>Telegram</b></a>
+    <a class="ct vk" data-ev="c" data-d="vk" href="https://vk.me/turkcem" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.8 17.5C6.7 17.5 3.3 13.3 3.1 6.4h3c.1 5 2.4 7.2 4.1 7.6V6.4h2.9v4.3c1.7-.2 3.5-2.1 4.1-4.3h2.8a8.3 8.3 0 0 1-3.8 5.4 8.6 8.6 0 0 1 4.5 5.7h-3.1a5.4 5.4 0 0 0-4.5-3.9v3.9z"/></svg></span><b>ВКонтакте</b></a>
+    <a class="ct ig" data-ev="c" data-d="ig" href="https://ig.me/m/turkcem_official" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21.9 8.2c-.1-1.6-.4-3-1.6-4.2S17.6 2.4 16 2.3c-1.7-.1-6.6-.1-8.2 0-1.6.1-3 .4-4.2 1.6S2.1 6.6 2 8.2c-.1 1.7-.1 6.6 0 8.2.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.6.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.5 0-8.2zm-2.1 10a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.9.4s-4.6.1-5.9-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.9s-.1-4.6.4-5.9a3.3 3.3 0 0 1 1.9-1.9c1.3-.5 4.4-.4 5.9-.4s4.6-.1 5.9.4a3.3 3.3 0 0 1 1.9 1.9c.5 1.3.4 4.4.4 5.9s.1 4.6-.4 5.9z"/></svg></span><b>Instagram*</b></a>
+    <a class="ct ml" data-ev="c" data-d="ml" href="mailto:mail@meryem.ru?subject=%D0%9A%D0%BB%D1%83%D0%B1%20%D0%BF%D0%BE%20%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80%D1%83"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.4L4.3 7H4v.6l8 5.6 8-5.6V7h-.3z"/></svg></span><b>Почта</b><small>mail@meryem.ru</small></a>
+  </div>
+  <p class="foot-note">* Соцсеть Instagram запрещена в РФ, так как принадлежит компании Meta, деятельность которой запрещена на территории РФ.</p>
+</section>
+</div>
+
+<footer>© Türkçem · Мария Атасевен · <a href="https://turkcem.ru" target="_blank" rel="noopener">turkcem.ru</a></footer>
+
+<dialog id="gift" aria-labelledby="gift-h"><div class="dl">
+  <button class="x" type="button" aria-label="Закрыть" data-close>✕</button>
+  <h3 id="gift-h">🎁 Участие в подарок</h3>
+  <p>Клуб может стать подарком на Новый год или Рождество. Участие оформим в виде красивого сертификата.</p>
+  <p>Напиши мне, и я расскажу, как подарить клуб.</p>
+  <div class="acts"><a class="btn gold" href="#contact" data-close data-ev="gift_write">Написать Марии</a></div>
+</div></dialog>
+
+<dialog id="rev-dlg" aria-label="Отзыв участника клуба"><div class="dl">
+  <button class="x" type="button" aria-label="Закрыть" data-close>✕</button>
+  <p class="who" id="rev-who"></p>
+  <blockquote id="rev-txt"></blockquote>
+</div></dialog>
+
+<dialog id="faq" aria-labelledby="faq-h"><div class="dl">
+  <button class="x" type="button" aria-label="Закрыть" data-close>✕</button>
+  <h3 id="faq-h">Вопросы и ответы</h3>
+  <details><summary>Когда проходит клуб?</summary><p>С 4 по 31 января 2027 года.</p></details>
+  <details><summary>Какой нужен уровень турецкого?</summary><p>A2 и выше.</p></details>
+  <details><summary>Что нужно для участия?</summary><p>Телефон или компьютер с интернетом. Клуб открывается в браузере, устанавливать ничего не нужно.</p></details>
+  <details><summary>Как получить скидку за друга?</summary><p>Приведи друга, и вы оба получите скидку 10 $. Напиши мне, кого ты приглашаешь.</p></details>
+  <div class="acts"><a class="btn gold" href="#contact" data-close data-ev="faq_write">Задать свой вопрос</a></div>
+</div></dialog>
+
+<script>
+(function(){
+  // кнопка WhatsApp: номер собирается здесь и не виден на странице
+  var wa = 'https://wa.me/' + ['90','505','023','61','26'].join('') + '?text=' + encodeURIComponent('Здравствуйте, Мария! Хочу присоединиться к клубу по Гарри Поттеру 🪄');
+  document.querySelectorAll('[data-wa]').forEach(function(a){ a.href = wa; });
+
+  // карточки: нажатие переворачивает; открыта одна за раз, нажатие мимо карточки или Esc закрывает
+  var grid = document.querySelector('.cards'), cards = [].slice.call(grid.querySelectorAll('.fc'));
+  function closeAll(except){ cards.forEach(function(o){ if (o !== except) o.setAttribute('aria-pressed', 'false'); }); }
+  cards.forEach(function(c){
+    function flip(){ var open = c.getAttribute('aria-pressed') !== 'true'; closeAll(c); c.setAttribute('aria-pressed', open ? 'true' : 'false'); }
+    c.addEventListener('click', flip);
+    c.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+  });
+  // pointerdown, а не click: на iPhone нажатие на пустое место не даёт click
+  document.addEventListener('pointerdown', function(e){ if (!(e.target.closest && e.target.closest('.fc'))) closeAll(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeAll(); });
+
+  // оборот карточки: шрифт подбирается под размер карточки, текст не вылезает за пятиугольник;
+  // перевёрнутая карточка увеличивается (--zs), чтобы на экране текст был не мельче 14–15 px
+  function fitOne(bt, max){
+    var fs = max, last = bt.lastElementChild;
+    do { bt.style.fontSize = fs.toFixed(2) + 'px'; fs -= 0.25; }
+    while (fs > 6 && last.offsetTop + last.offsetHeight > bt.clientHeight * 0.9);
+    return parseFloat(bt.style.fontSize);
+  }
+  function fitBacks(){
+    var w = cards[0].clientWidth; if (!w) return;
+    var phone = matchMedia('(max-width:760px)').matches, z;
+    if (phone) z = grid.clientWidth / w;
+    else { z = 1; cards.forEach(function(c){ z = Math.max(z, 15 / fitOne(c.querySelector('.bt'), Math.min(17, w * 0.072))); }); z = Math.min(z, 1.4); }
+    var cap = Math.min(w * 0.072, (phone ? 16 : 18) / z);
+    var xs = [], ys = [];
+    cards.forEach(function(c){ if (xs.indexOf(c.offsetLeft) < 0) xs.push(c.offsetLeft); if (ys.indexOf(c.offsetTop) < 0) ys.push(c.offsetTop); });
+    xs.sort(function(a, b){ return a - b; }); ys.sort(function(a, b){ return a - b; });
+    function side(v, list, lo, hi){ var i = list.indexOf(v); return i === 0 ? lo : i === list.length - 1 ? hi : 'center'; }
+    cards.forEach(function(c){
+      fitOne(c.querySelector('.bt'), cap);
+      c.style.setProperty('--zs', z.toFixed(3));
+      c.style.transformOrigin = side(c.offsetLeft, xs, 'left', 'right') + ' ' + side(c.offsetTop, ys, 'top', 'bottom');
+    });
+  }
+  fitBacks(); addEventListener('resize', fitBacks);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitBacks);
+
+  // ленты снимков и отзывов: стрелки на компьютере
+  document.querySelectorAll('.strip-wrap').forEach(function(w){
+    var s = w.querySelector('.strip');
+    w.querySelectorAll('.arr').forEach(function(b){
+      b.addEventListener('click', function(){ s.scrollBy({left: (+b.dataset.dir) * s.clientWidth * 0.8, behavior: 'smooth'}); });
+    });
+  });
+
+  // отзывы: длинные обрезаны в карточке, целиком — в окне
+  var rd = document.getElementById('rev-dlg');
+  function markLong(){
+    document.querySelectorAll('.rev').forEach(function(f){
+      var q = f.querySelector('blockquote'), long = q.scrollHeight > q.clientHeight + 2;
+      f.classList.toggle('long', long); f.querySelector('.rev-more').hidden = !long;
+    });
+  }
+  markLong(); addEventListener('resize', markLong);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(markLong);
+  document.querySelectorAll('.rev-more').forEach(function(b){
+    b.addEventListener('click', function(){
+      var f = b.closest('.rev');
+      document.getElementById('rev-who').textContent = f.querySelector('figcaption').textContent;
+      document.getElementById('rev-txt').innerHTML = f.querySelector('blockquote').innerHTML;
+      rd.showModal ? rd.showModal() : rd.setAttribute('open', '');
+      rd.querySelector('.dl').scrollTop = 0;
+    });
+  });
+
+  // окна «Участие в подарок» и «?»
+  document.querySelectorAll('[data-open]').forEach(function(b){
+    b.addEventListener('click', function(){ var d = document.getElementById(b.dataset.open); d.showModal ? d.showModal() : d.setAttribute('open', ''); });
+  });
+  document.querySelectorAll('dialog').forEach(function(d){
+    d.addEventListener('click', function(e){ if (e.target === d || e.target.closest('[data-close]')) d.close(); });
+  });
+
+  // цена и таймер: акция до 30.11 23:59 (Москва = Стамбул, UTC+3), потом обычная цена и отсчёт до старта клуба 4 января
+  var PROMO_END = Date.parse('2026-11-30T23:59:59+03:00'), START = Date.parse('2027-01-04T00:00:00+03:00');
+  var q = new URLSearchParams(location.search).get('date');            // ?date=2026-12-05 — посмотреть страницу «как в этот день»
+  var shift = q ? Date.parse(q + 'T12:00:00+03:00') - Date.now() : 0;
+  function now(){ return Date.now() + shift; }
+  var $ = function(id){ return document.getElementById(id); };
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function tick(){
+    var t = now(), promo = t < PROMO_END, target = promo ? PROMO_END : START;
+    $('pnow').textContent = promo ? '69 $' : '79 $';
+    $('pold').hidden = !promo; $('badge').hidden = !promo;
+    if (t >= START) { $('timer').hidden = true; return; }
+    $('tlbl').textContent = promo ? 'До конца акции осталось' : 'До старта клуба осталось';
+    var s = Math.max(0, Math.floor((target - t) / 1000));
+    $('td').textContent = Math.floor(s / 86400); $('th').textContent = pad(Math.floor(s % 86400 / 3600));
+    $('tm').textContent = pad(Math.floor(s % 3600 / 60)); $('ts').textContent = pad(s % 60);
+  }
+  tick(); setInterval(tick, 1000);
+})();
+</script>
+<script>
+// статистика для Марии: заходы, источник, докуда долистали, какие кнопки нажимали. Личных данных нет: случайный id браузера.
+(function(){
+  var E = 'https://hp-club-stats.logos-taranov.workers.dev/e', q = new URLSearchParams(location.search), ls, ss;
+  try { ls = localStorage; ss = sessionStorage; } catch(x) {}
+  function get(st, k){ try { return st && st.getItem(k); } catch(x) { return null; } }
+  function set(st, k, v){ try { st && st.setItem(k, v); } catch(x) {} }
+  if (q.get('nostat') === '1') set(ls, 'hp_nostat', '1');
+  if (q.get('nostat') === '0') { try { ls.removeItem('hp_nostat'); } catch(x) {} }
+  var off = navigator.webdriver || get(ls, 'hp_nostat') === '1';
+  function rid(){ return Math.random().toString(36).slice(2, 10) + Date.now().toString(36); }
+  var v = get(ls, 'hp_v') || rid(); set(ls, 'hp_v', v);
+  var s = get(ss, 'hp_s') || rid(); set(ss, 'hp_s', s);
+  var src = (q.get('src') || q.get('utm_source') || '').toLowerCase().slice(0, 40);
+  if (src) set(ss, 'hp_src', src); else src = get(ss, 'hp_src') || '';
+  var ref = document.referrer && document.referrer.indexOf(location.host) < 0 ? document.referrer.slice(0, 300) : '';
+  function send(e, d){
+    if (off) return;
+    var b = JSON.stringify({v: v, s: s, e: e, d: d || '', src: src, ref: ref, w: innerWidth});
+    try { if (navigator.sendBeacon && navigator.sendBeacon(E, b)) return; } catch(x) {}
+    try { fetch(E, {method: 'POST', body: b, keepalive: true, mode: 'no-cors'}); } catch(x) {}
+  }
+  send('view');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(es){ es.forEach(function(en){ if (en.isIntersecting) { send('see', en.target.id); io.unobserve(en.target); } }); },
+      {rootMargin: '-45% 0px -45% 0px'});
+    document.querySelectorAll('section[id]').forEach(function(el){ io.observe(el); });
+  }
+  document.addEventListener('click', function(ev){
+    var el = ev.target.closest && ev.target.closest('[data-ev]'); if (!el) return;
+    var e = el.getAttribute('data-ev'), d = el.getAttribute('data-d') || '';
+    if (e === 'flip' && el.getAttribute('aria-pressed') === 'true') return;   // считаем только переворот на оборот
+    if (e === 'rev') { var f = el.closest('.rev'); d = f ? (f.querySelector('figcaption') || {}).textContent || '' : ''; }
+    send(e, d);
+  }, true);
+})();
+</script>
+</body>
+</html>
